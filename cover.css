@@ -8,6 +8,9 @@ a:focus,
 a:hover {
   color: #fff;
 }
+a {
+	color: #b0adff;
+}
 
 /* Custom default button */
 .btn-default,
@@ -28,13 +31,12 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  background-image: url("bokeh.jpg");
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  background-image: url("bokeh.jpg");
-  background-size: cover;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -49,6 +51,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  padding: 80px;
 }
 .cover-container {
   margin-right: auto;
@@ -175,5 +178,9 @@ body {
 }
 
 .rightjust {
+	text-align: right;
+}
+
+.side-head {
 	text-align: right;
 }
